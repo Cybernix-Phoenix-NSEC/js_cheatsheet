@@ -56,18 +56,18 @@
 
 //CREATE ELEMENT
 
-// var newHeader = document.createElement('h1');
+var newHeader = document.createElement('h1');
 //  <h1></h1> 
 
 
-// var textNode = document.createTextNode('Am i audible');
+var textNode = document.createTextNode('Am i audible');
 //"Am i audible"
 
 
-// newHeader.appendChild(textNode);
+newHeader.appendChild(textNode);
 // <h1> Am i audible </h1>
 
-// document.body.appendChild(newHeader);
+document.body.appendChild(newHeader);
 //  <body>
 //     <h1>Am i audible</h1>
 // </body> 
@@ -126,6 +126,16 @@
 
 // var formSubmit = document.getElementById('form');
 // formSubmit.addEventListener('submit', displayList);
+
+
+// function displayOption(e) {
+//     console.log("selected");
+//     alert(`You have selected ${e.target.value}`)
+// }
+
+// var optionElement  = document.querySelector('.ice-cream')
+// ;
+// optionElement.addEventListener('change', displayOption);
 
 
 
