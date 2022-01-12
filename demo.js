@@ -15,6 +15,7 @@
 // console.log(document.images);
 
 //  GETELEMENTBYID
+
 // console.log(document.getElementById('header-title'));
 // var headerTitle = document.getElementById('header-title');
 // var header = document.getElementById('main-header');
@@ -27,7 +28,7 @@
 
 // GETELEMENTSBYCLASSNAME
 
-var items = document.getElementsByClassName('list-group-item');
+// var items = document.getElementsByClassName('list-group-item');
 // console.log(items);
 // console.log(items[1]);
 // items[1].textContent = 'Hello 2';
@@ -50,3 +51,83 @@ var items = document.getElementsByClassName('list-group-item');
 // lastItem.style.color = 'blue';
 // var secondItem = document.querySelecton('.list-group-item:nth-child(2) ');
 // secondItem.style.color = 'coral';
+
+
+
+//CREATE ELEMENT
+
+// var newHeader = document.createElement('h1');
+//  <h1></h1> 
+
+
+// var textNode = document.createTextNode('Am i audible');
+//"Am i audible"
+
+
+// newHeader.appendChild(textNode);
+// <h1> Am i audible </h1>
+
+// document.body.appendChild(newHeader);
+//  <body>
+//     <h1>Am i audible</h1>
+// </body> 
+
+
+
+
+// var btn = document.createElement('button');
+// <button></button> //
+
+// btn.innerHTML = "CLick me";
+//  <button> Click Me </button> 
+
+
+// document.body.appendChild(btn);
+
+//  <body> 
+//     <button> Click Me </button>
+// </body> 
+
+// Add this element to html document body
+
+
+
+// var listElement = document.createElement('li') // Create a <list> element
+// <li>
+// </li>
+
+// var textNode = document.createTextNode('item new')
+// "item new"
+
+// listElement.appendChild(textNode)
+// <li> item new </li>
+
+// var listClass = document.getElementById('items')
+// listClass.appendChild(listElement)
+
+// <ul>
+//     <li>item new</li>
+// </ul>
+
+
+
+
+
+// function displayList(event) {
+  
+
+//     event.preventDefault();
+//     var name = event.target.input.value;
+    
+
+//     console.log(name);
+// }
+
+
+// var formSubmit = document.getElementById('form');
+// formSubmit.addEventListener('submit', displayList);
+
+
+
+
+
